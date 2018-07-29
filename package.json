@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "nappjs": "^0.5.17",
+    "nappjs-core-data": "^0.2.5",
+    "nappjs-core-data-graphql": "^0.1.6",
+    "nappjs-graphql-api": "^0.3.7"
+  },
+  "scripts": {
+    "start": "nappjs start",
+    "start-local": "PORT=3000 DATABASE_URL=sqlite://`pwd`/test.db nappjs start",
+    "deploy-database": "nappjs migrate",
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  }
+}
