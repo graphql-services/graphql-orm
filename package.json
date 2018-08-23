@@ -3,7 +3,7 @@
     "nappjs": "^0.5.17",
     "nappjs-core-data": "^0.2.5",
     "nappjs-core-data-graphql": "^0.1.8",
-    "nappjs-graphql-api": "^0.3.7"
+    "nappjs-graphql-api": "^0.3.10"
   },
   "scripts": {
     "start": "nappjs start",
